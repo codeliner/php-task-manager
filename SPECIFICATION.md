@@ -59,7 +59,7 @@ Each **Project** CAN contains:
 ### <a name="specs-task"></a> Task definition
 Each **Task** MUST contains at least:
 >
-* A *label* to discribe its name.
+* A *label* to describe its name.
 * A *description* to tell us its requirements for completion.
 * A *creation timestamp*.
 * A *status*.
