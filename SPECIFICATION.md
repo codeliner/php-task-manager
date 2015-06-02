@@ -11,8 +11,8 @@ For this project, we need to create a tool to manage **Tasks** that will
 be given for any kind of professional. To meet their needs, we need to
 organize **Tasks** into **Projects**.
 
-We need to implements a control panel for each user, and a form where
-new users can signup and create they projects.
+We need to implement a control panel for each user, and a form where
+new users can signup and create their projects.
 
 From this panel, a **User** can create a **Project**. They can invite
 other **Users** to participate in their **Projects**.
@@ -26,10 +26,9 @@ other **Users** to participate in their **Projects**.
 
 * Any **User** CAN create a **Task**
 
-* A **Task** CAN be assigned to a **User**.
+* A **Task** CAN be assigned to an **User**.
 
-* Each **User** CAN assign to yourself a **Task** that
-not have been assigned yet.
+* Each **User** CAN assign to himself a **Task** that have not been assigned yet.
 
 * Just the **User** with the *role* "owner" can assign any **Task** to any
 **User**.
@@ -39,32 +38,32 @@ and "Done".
 
 * A new **Task** is created with status  "To do".
 
-* A **Task** CAN chage its status, just when they have a **User** assigned
+* A **Task** CAN change its status, just when they have an **User** assigned
 to it.
 
 ### <a name="specs-project"></a> Project definition
 
-Each **Project** MUST contains at least:
+Each **Project** MUST contain at least:
 >
 * A *label* to describe its name
 * A *creation timestamp*
-* A **User** with the *role* "owner"
+* An **User** with the *role* "owner"
 
-Each **Project** CAN contains:
+Each **Project** CAN contain:
 >
 * A **Task**.
 * One or more **Users** with any *role*
 
 
 ### <a name="specs-task"></a> Task definition
-Each **Task** MUST contains at least:
+Each **Task** MUST contain at least:
 >
 * A *label* to describe its name.
 * A *description* to tell us its requirements for completion.
 * A *creation timestamp*.
 * A *status*.
 
-Each **Task** CAN contains:
+Each **Task** CAN contain:
 >
-* A **User** assigned to it.
+* An **User** assigned to it.
 * A *last change timestamp*.
