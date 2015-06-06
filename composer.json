@@ -9,7 +9,7 @@
         "psr-4": {
             "DddFellowship\\View\\":          "src/View/",
             "DddFellowship\\Application\\":   "src/Application/",
-            "DddFellowship\\TaskManager\\":   "src/Domain/",
+            "DddFellowship\\Domain\\":        "src/Domain/",
             "DddFellowship\\Infastructure\\": "src/Infastructure/"
         }
     }
